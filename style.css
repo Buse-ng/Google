@@ -1,0 +1,38 @@
+div{
+   text-align: center; 
+}
+body{
+    background-color: rgb(255, 255, 255);
+    margin: 8px;
+    font-style: normal;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+table{
+    border: 1px solid white;
+    margin-left: 18%;
+    margin-right: 18%;
+    text-indent: 10px;
+    text-align: center;
+    width: 60%;
+    height:50%;
+}
+
+table th{
+background: rgb(209, 216, 219);
+}
+/*table td{
+background: rgb(144, 209, 201);
+}*/
+table td:nth-child(1){
+    background: rgb(137, 229, 219);
+}
+table td:nth-child(2){
+    background: rgb(118, 184, 176);
+}
+table td:nth-child(3){
+    background: rgb(99, 161, 154);
+}
+.bosluk{
+    width: 45%;
+}
